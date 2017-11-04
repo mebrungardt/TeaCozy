@@ -1,0 +1,192 @@
+body {
+  display: flex;
+  font-size: 22px;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  margin: 0px;
+  padding: 0px;
+  opacity: .9;
+  background-color: black;
+  justify-content: center;
+}
+
+/*Incorporates logo and nav units to fixed position at top of page */
+
+header {
+  z-index: 50;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  border-top: 1px solid seashell;
+  align-items: center;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+}
+
+/*Styles and spaces the nav units*/
+
+header a {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  text-decoration: underline;
+  flex-flow: row nowrap;
+  margin: 0 10px;
+}
+
+/*h2 and h4 are used throughout page.  Styled for everything */
+
+h2 {
+  color: seashell;
+  padding-top: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+h4 {
+  color: seashell;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Main container for all content */
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  top: 70px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/*Start of mission organization*/
+
+.mission {
+  background-image: url(../images/img-mission-background.jpg);
+  display flex;
+  top: 70px;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+}
+
+.MissionContent {
+  position: relative;
+  top: 40%;
+  text-align: center;
+  background-color: black;
+  justify-content: center;
+}
+
+/*Start of featured organization */
+
+.featured {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.teapics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.teapics img {
+  width: 300px;
+  height: 200px;
+  margin: 0px 15px;
+  padding: 0px;
+}
+
+.teapics h4 {
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 0px;
+}
+
+/* For organizing
+.pic1 {
+  border: solid 1px white;
+}
+
+.pic2 {
+  border: solid 1px white;
+}
+
+.pic3 {
+  border: solid 1px white;
+}
+
+.pic4 {
+  border: solid 1px white;
+}
+
+.pic5 {
+  border: solid 1px white;
+} */
+
+/*Starts locations organization*/
+
+.locations {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  margin-top: 40px;
+  background-image: url(../images/img-locations-background.jpg);
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ContainerLocations {
+  display: flex;
+  align-items: center;
+}
+
+.locations h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.loc {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+}
+
+/*Start contact organization and style*/
+
+.contact {
+  height: 200px;
+}
+
+h5 {
+  color: seashell;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  margin-left: 20px;
+}
